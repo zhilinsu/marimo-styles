@@ -50,3 +50,78 @@ pre code {
 .prose table {
     font-size: 1.2rem !important;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+    --marimo-text-font: "Inter", sans-serif;
+    --marimo-heading-font: "Inter", sans-serif;
+    --marimo-monospace-font: "JetBrains Mono", monospace;
+}
+
+/* Markdown */
+.prose {
+    font-size: 1.35rem !important;
+    line-height: 1.75 !important;
+}
+
+.prose h1 {
+    font-size: 2.4rem !important;
+}
+
+.prose h2 {
+    font-size: 1.95rem !important;
+}
+
+.prose h3 {
+    font-size: 1.65rem !important;
+}
+
+.prose h4 {
+    font-size: 1.35rem !important;
+}
+
+/* Python stdout and stderr */
+.stdout,
+.stdout *,
+.stderr,
+.stderr * {
+    font-family: var(--marimo-monospace-font) !important;
+    font-size: 1.2rem !important;
+    line-height: 1.6 !important;
+}
+
+/* Code blocks */
+pre,
+pre code {
+    font-family: var(--marimo-monospace-font) !important;
+    font-size: 1.2rem !important;
+    line-height: 1.6 !important;
+}
+
+/* Tables */
+.prose table {
+    font-size: 1.2rem !important;
+}
+
+/* Autocomplete suggestions */
+.cm-tooltip-autocomplete,
+.cm-tooltip-autocomplete .cm-completionLabel,
+.cm-tooltip-autocomplete .cm-completionDetail {
+    font-size: 1rem !important;
+}
+
+/* Documentation tooltip */
+.cm-completionInfo,
+.cm-completionInfo p,
+.cm-completionInfo code,
+.cm-completionInfo pre {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+}
+
+/* Hover tooltips */
+.cm-tooltip-hover {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+}
